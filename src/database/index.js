@@ -4,7 +4,7 @@ import configDatabase from "../config/database.js";
 
 import User from "../../src/app/controllers/models/User.js";
 
-const models = (User);
+const models = [User];
 
 class Database{
     constructor(){

@@ -25,15 +25,16 @@ export async function up(queryInterface, Sequelize) {
       type: Sequelize.BOOLEAN,
       defaultValue: false,
     },
-    created_at: {
+    create_at: {
       type: Sequelize.DATE,
       allowNull: false,
     },
     updated_at: {
       type: Sequelize.DATE,
       allowNull: false,
-    }
+    },
   });
+
 }
 export async function down(queryInterface) {
   await queryInterface.dropTable('users');
