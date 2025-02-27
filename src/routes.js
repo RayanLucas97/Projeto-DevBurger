@@ -9,9 +9,9 @@ routes.get("/", async (request, response) => {
  
     const user = await User.create({
         id:v4(),
-        name:"Rayan2",
-        email:"rayan2@email.com",
-        password_hash:"123456"
+        name:"Rayan8",
+        email:"rayan8@email.com",
+        password_hash:"1234567"
     });
    
     return response.status(201).json(user);
