@@ -1,0 +1,25 @@
+{
+  "name": "devburger-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": {
+    "name": "Rayan",
+    "url": "https://github.com/RayanLucas97"
+  },
+  "license": "ISC",
+  "description": "DevBurguer API.",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2"
+  }
+}
