@@ -11,11 +11,11 @@ class User extends Model {
             },
             {
                 sequelize,
-                timestamps: true,  // 🔥 Adiciona os campos createdAt e updatedAt
-                underscored: true, // 🔥 Faz com que os nomes fiquem em snake_case (created_at)
+                timestamps: true,  
+                underscored: true, 
             },
         );
     }
 }
 
-export default User;
+export default User;
