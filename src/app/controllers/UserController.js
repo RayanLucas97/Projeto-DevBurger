@@ -1,4 +1,4 @@
-import User from "../controllers/models/User.js"
+import User from "../models/User"
 import { v4 } from "uuid";
 import * as Yup from "yup"; 
 
